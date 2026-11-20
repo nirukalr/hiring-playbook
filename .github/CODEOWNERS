@@ -1,0 +1,18 @@
+# Each change needs approval from the owner of the pages it touches.
+# Replace YOUR-ORG and the team names with your GitHub organisation's teams.
+
+*                                     @YOUR-ORG/hiring-excellence-group
+/docs/roles/architect.md              @YOUR-ORG/architects-forum
+/docs/kit/system-design-exercise.md @YOUR-ORG/architects-forum
+/docs/kit/architecture-presentation.md @YOUR-ORG/architects-forum
+/docs/kit/poc-brief.md          @YOUR-ORG/architects-forum
+/docs/roles/intern.md                 @YOUR-ORG/tech-leads-forum
+/docs/roles/software-engineer.md      @YOUR-ORG/tech-leads-forum
+/docs/roles/senior-software-engineer.md @YOUR-ORG/tech-leads-forum
+/docs/roles/tech-lead.md              @YOUR-ORG/tech-leads-forum
+/docs/kit/code-review-exercise.md @YOUR-ORG/tech-leads-forum
+/docs/kit/leadership-scenario.md @YOUR-ORG/tech-leads-forum
+/docs/culture.md                      @YOUR-ORG/hr
+/docs/kit/culture-interview-form.md @YOUR-ORG/hr
+/docs/kit/candidate-emails.md   @YOUR-ORG/hr @YOUR-ORG/talent-acquisition
+/.github/                             @YOUR-ORG/hiring-excellence-group

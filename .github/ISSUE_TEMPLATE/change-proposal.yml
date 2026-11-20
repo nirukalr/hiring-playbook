@@ -1,0 +1,22 @@
+name: Change proposal
+description: Suggest a change to the hiring playbook
+title: "[Change] "
+labels: [change-proposal]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which page or section?
+      placeholder: e.g. Role tracks > Tech Lead
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change?
+    validations: {required: true}
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? What evidence do you have?
+      description: A debrief, a hire that went well or badly, candidate feedback, metrics. Never include candidate names or personal data.
+    validations: {required: true}

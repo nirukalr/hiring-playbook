@@ -1,0 +1,25 @@
+# Debrief and decision note
+
+**Who uses it:** Hiring lead · within 2 working days of the last stage
+
+Use the copy button on the block below. The editable master copy lives in the shared drive: *add link*.
+
+```text
+DEBRIEF AGENDA  (30 min)
+1. Confirm every feedback form is in (else postpone)
+2. Read all scores aloud, before discussion            5 min
+3. Discuss only gaps of 2+ points or must-haves below 3  15 min
+4. Check the three lenses: engineering bar, project fit, culture  5 min
+5. Decide and record                                    5 min
+
+DECISION NOTE
+Candidate: ________  Role/level: ________  Date: ________
+Decision: Hire / No hire        Level offered: ________
+Panel and scores: ________
+Engineering bar: yes/no — evidence:
+Project fit:     yes/no — evidence:
+Culture (HR):    yes/no — evidence:
+Independent interviewer and HR concerns, and how each was resolved:
+Risks and needs-validation items for the onboarding buddy:
+Signed: hiring lead ________
+```
