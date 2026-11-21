@@ -1,18 +1,30 @@
-# Each change needs approval from the owner of the pages it touches.
-# Replace YOUR-ORG and the team names with your GitHub organisation's teams.
+# Each change needs approval from the owner of the content it touches.
+# The last matching line wins, so keep the catch-all first.
 
-*                                     @YOUR-ORG/hiring-excellence-group
-/docs/roles/architect.md              @YOUR-ORG/architects-forum
-/docs/kit/system-design-exercise.md @YOUR-ORG/architects-forum
-/docs/kit/architecture-presentation.md @YOUR-ORG/architects-forum
-/docs/kit/poc-brief.md          @YOUR-ORG/architects-forum
-/docs/roles/intern.md                 @YOUR-ORG/tech-leads-forum
-/docs/roles/software-engineer.md      @YOUR-ORG/tech-leads-forum
-/docs/roles/senior-software-engineer.md @YOUR-ORG/tech-leads-forum
-/docs/roles/tech-lead.md              @YOUR-ORG/tech-leads-forum
-/docs/kit/code-review-exercise.md @YOUR-ORG/tech-leads-forum
-/docs/kit/leadership-scenario.md @YOUR-ORG/tech-leads-forum
-/docs/culture.md                      @YOUR-ORG/hr
-/docs/kit/culture-interview-form.md @YOUR-ORG/hr
-/docs/kit/candidate-emails.md   @YOUR-ORG/hr @YOUR-ORG/talent-acquisition
-/.github/                             @YOUR-ORG/hiring-excellence-group
+*                                                    @nirukalr/hiring-excellence-group
+
+# Architects' Forum
+/src/content/roles/architect.ts                      @nirukalr/architects-forum
+/src/content/templates/system-design-exercise.txt    @nirukalr/architects-forum
+/src/content/templates/architecture-presentation.txt @nirukalr/architects-forum
+/src/content/templates/poc-brief.txt                 @nirukalr/architects-forum
+
+# Tech Leads' Forum
+/src/content/roles/intern.ts                         @nirukalr/tech-leads-forum
+/src/content/roles/software-engineer.ts              @nirukalr/tech-leads-forum
+/src/content/roles/senior-software-engineer.ts       @nirukalr/tech-leads-forum
+/src/content/roles/tech-lead.ts                      @nirukalr/tech-leads-forum
+/src/content/templates/code-review-exercise.txt      @nirukalr/tech-leads-forum
+/src/content/templates/leadership-scenario.txt       @nirukalr/tech-leads-forum
+
+# HR and talent acquisition
+/src/pages/Culture.tsx                               @nirukalr/hr
+/src/content/templates/culture-interview-form.txt    @nirukalr/hr
+/src/content/templates/candidate-emails.txt          @nirukalr/hr @nirukalr/talent-acquisition
+
+# Site machinery
+/.github/                                            @nirukalr/hiring-excellence-group
+/src/components/                                     @nirukalr/hiring-excellence-group
+/src/styles/                                         @nirukalr/hiring-excellence-group
+/src/lib/                                            @nirukalr/hiring-excellence-group
+/tests/                                              @nirukalr/hiring-excellence-group

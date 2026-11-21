@@ -1,0 +1,17 @@
+CODE REVIEW EXERCISE  (30–45 min)
+Prepare a realistic pull request (150–300 lines) with planted issues:
+  Critical: e.g. SQL injection, missing tenant filter, money as float
+  Major:    e.g. no idempotency on retry, swallowed exception, no test
+            for the main business rule
+  Minor:    naming, duplication, a missing log line
+
+Ask the candidate to review it as they would for a teammate,
+thinking aloud, then summarise what must change before merge.
+
+Score
+  Finds the critical issues unprompted?     (depth, rigour)
+  Prioritises by severity?                  (judgement)
+  Tone of comments: specific and kind?      (communication, leadership)
+  Suggests tests?                           (quality)
+
+Rotate the planted PR every 6 months.

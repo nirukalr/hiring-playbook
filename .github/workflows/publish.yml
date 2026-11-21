@@ -16,25 +16,27 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          fetch-depth: 0   # full history for "last updated" dates
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: mkdocs build --strict   # fails on broken links
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Type-check and test (links, menu, decision rule)
+        run: npm run check
+      - name: Build
+        run: npm run build
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'
         with:
-          path: site
+          path: dist
 
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: build
+    needs: check
     runs-on: ubuntu-latest
     environment:
       name: github-pages

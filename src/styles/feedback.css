@@ -1,0 +1,25 @@
+/* Feedback builder (feedback.html). */
+.fb{border:1px solid var(--line);border-radius:14px;padding:22px;display:grid;gap:18px}
+.fb-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+label.f{display:grid;gap:4px;font-size:.8rem;font-weight:600;color:var(--muted)}
+label.f.span2{grid-column:span 2}
+input[type=text],select,textarea{font:inherit;font-size:.9rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%}
+textarea{resize:vertical;min-height:38px}
+.fb-comp{display:grid;grid-template-columns:220px 110px minmax(0,1fr);gap:12px;align-items:start;padding:10px 0;border-top:1px solid var(--line)}
+.fb-comp .nm{font-weight:600;color:var(--ink);font-size:.9rem;padding-top:8px}
+.fb-comp .nm small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+.fb-comp.hide{display:none}
+.fb-out{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.stat{background:var(--surface);border-radius:var(--r);padding:14px 16px;display:grid;gap:2px}
+.stat .big{font-size:1.6rem;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.stat .big.sm{font-size:1.1rem}
+.stat.warn .big{color:var(--hot)}
+.stat.ok .big{color:var(--teal)}
+.fb-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.status{font-size:.85rem;color:var(--teal);min-height:1.2em}
+@media (max-width:760px){
+  .fb-out{grid-template-columns:minmax(0,1fr)}
+  .fb-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fb-comp{grid-template-columns:minmax(0,1fr) 110px}
+  .fb-comp textarea{grid-column:1 / -1}
+}

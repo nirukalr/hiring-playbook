@@ -1,0 +1,26 @@
+INTERVIEW FEEDBACK
+Candidate: ________  Role/level: ________  Stage: ________
+Interviewer: ________  Date: ________  Duration: ____ min
+
+For each competency you assessed: score 1–4 or N/A, plus evidence
+(what they said or did, close to verbatim).
+
+Technical depth .............. [ ]  Evidence:
+Problem solving .............. [ ]  Evidence:
+System design ................ [ ]  Evidence:
+Code quality and testing ..... [ ]  Evidence:
+Ownership and delivery ....... [ ]  Evidence:
+Communication ................ [ ]  Evidence:
+Learning and curiosity ....... [ ]  Evidence:
+Leadership and influence ..... [ ]  Evidence:   (TL / Architect)
+
+Evidenced (they showed it):
+Inferred (likely, not shown):
+Needs validation (next stage or references should check):
+Hints given:
+Culture signals observed:
+
+Recommendation: Strong hire / Hire / No hire / Strong no hire
+One-sentence reason:
+
+I submitted this before discussing the candidate: [ ] yes

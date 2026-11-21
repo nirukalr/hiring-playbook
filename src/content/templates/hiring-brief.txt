@@ -1,0 +1,39 @@
+PROJECT HIRING BRIEF  (2–3 pages, no confidential client data)
+Role: ____________   Level: Intern / SE / SSE / TL / Architect
+Hiring lead: ____________   Date: ____________
+
+1. The project in one paragraph
+   Domain, users, business goal, stage (new build / scale-up / support).
+
+2. Why this role exists
+   The gap it fills. What goes wrong if it stays empty.
+
+3. The first 90 days
+   3–5 concrete things the hire will do or own.
+
+4. Tech stack and architecture
+   Languages, frameworks, cloud services, data stores.
+   Attach a simple, sanitised architecture sketch.
+
+5. The three hardest problems
+   e.g. money-handling rules, multi-tenancy, legacy integration.
+   These become deep-dive and what-if material.
+
+6. Team and ways of working
+   Team size and roles, time zones, client exposure, rituals,
+   on-call, pace and known intense periods.
+
+7. Must-haves / nice-to-haves / deal-breakers
+   One line each, plus how to recognise it in an interview.
+
+8. Competency weights and must-haves (from the role track)
+
+9. Standard scenario and coding check
+   The problem every candidate gets, probe points,
+   what a 3 and a 4 answer sound like.
+
+10. Who will thrive here (and who would struggle)
+
+11. Glossary (10–15 domain and project terms)
+
+12. Why a strong engineer would want this role
